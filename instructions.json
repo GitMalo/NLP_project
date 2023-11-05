@@ -1,0 +1,20 @@
+{
+"Metadata":{
+    "EXTRACT_REGEX_PATTERN": {"regex_pattern": "\\d+ Review", "secondary_regex_pattern": "\\d+","new_column_name": ["nb_review"], "result_type": "int"},
+    "EXTRACT_REGEX_PATTERN_2": {"regex_pattern": "\\d+ Follower", "secondary_regex_pattern": "\\d+","new_column_name": ["nb_follower"], "result_type": "int"}
+},
+"Time": {
+    "EXTRACT_REGEX_PATTERN": {"regex_pattern": "/(\\d{4})\\s", "new_column_name": ["Year"], "result_type": "int"},
+    "EXTRACT_REGEX_PATTERN_2": {"regex_pattern": "(\\d+)", "new_column_name": ["Month"], "result_type": "int"}
+},
+"Review": {
+    "LOWERCASE": {},
+    "REMOVE_URLS": {},
+    "REMOVE_EMOJI": {},
+    "REMOVE_EMOTICONS": {},
+    "REMOVE_PUNCT": {},
+    "CHAT_WORDS_CONVERSION": {},
+    "REMOVE_STOPWORDS": {},
+    "LEMMATIZE_ENGLISH": {}
+}
+}
